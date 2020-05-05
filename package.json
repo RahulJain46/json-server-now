@@ -1,12 +1,13 @@
 {
-    "name": "json-server-now",
-    "version": "0.0.1",
-    "dependencies": {
-        "json-server": "0.8.16",
-        "faker": "3.1.0",
-        "lodash": ">=4.17.13"
-    },
-    "scripts": {
-        "start": "node db.js"
-    }
+  "name": "json-server-now",
+  "version": "0.0.1",
+  "dependencies": {
+    "faker": "3.1.0",
+    "json-server": "0.8.16",
+    "lodash": ">=4.17.13",
+    "now": "^18.0.0"
+  },
+  "scripts": {
+    "start": "node db.js"
+  }
 }
